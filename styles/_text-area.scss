@@ -1,0 +1,20 @@
+@use "variables";
+
+.text-area {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+
+    label {
+        font-weight: bold;
+        font-size: 1.3rem;
+    }
+
+    textarea {
+        box-sizing: border-box;
+        resize: none;
+        height: 8rem;
+        border-radius: 0.5rem;
+        padding: 0.5rem;
+    }
+}

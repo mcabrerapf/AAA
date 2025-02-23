@@ -1,0 +1,34 @@
+@use "variables";
+
+.main-description {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 1rem;
+    gap: 1rem;
+
+    &__left {
+        display: flex;
+        font-size: 1.5rem;
+        width: 100%;
+        justify-content: start;
+        text-align: left;
+
+        p {
+            width: 20rem;
+        }
+    }
+
+    &__right {
+        display: flex;
+        font-size: 1.5rem;
+        width: 100%;
+        justify-content: end;
+        text-align: right;
+
+        p {
+            width: 20rem;
+        }
+    }
+}
