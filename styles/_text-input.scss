@@ -1,0 +1,19 @@
+@use "variables";
+
+.text-input {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+
+    label {
+        font-weight: bold;
+        font-size: 1.3rem;
+    }
+
+    input {
+        box-sizing: border-box;
+        height: 3rem;
+        border-radius: 0.5rem;
+        padding: 0.5rem;
+    }
+}

@@ -1,0 +1,9 @@
+@use "variables";
+
+.about-us {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    justify-content: space-around;
+    border: none;
+}
