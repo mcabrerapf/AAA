@@ -1,5 +1,15 @@
 export default function getDeviceType() {
-    const width = window.innerWidth;
+    let width;
+
+    try {
+        if (window.top !== window.self) {
+            width = window.top.innerWidth;
+        } else {
+            width = window.innerWidth;
+        }
+    } catch (e) {
+        width = window.innerWidth;
+    }
 
     if (width < 768) {
         return "mobile";
