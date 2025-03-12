@@ -388,6 +388,7 @@ html {
   height: 100%;
   width: 100%;
   font-size: 12px;
+  font-family: "Roboto";
 }
 
 body,
@@ -400,7 +401,7 @@ body,
 }
 
 body {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  font-family: "Roboto", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -410,7 +411,7 @@ p, h1 {
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+  font-family: "Roboto", monospace;
 }
 
 /*# sourceMappingURL=main.css.map */
