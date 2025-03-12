@@ -11,13 +11,13 @@ export default function MainDescription() {
         <div class="main-description__badges">
             ${AboutUsBadge({
                 name: 'Gunter',
-                backgroundUrl: '../assets/gunter.jpg',
+                backgroundUrl: '../public/gunter.jpg',
                 titles: ['Musician', 'Composer', 'Producer', 'Sound Designer'],
                 onClick: `document.getElementById('gunter-bio').scrollIntoView({ behavior: 'smooth' })`
             })}
             ${AboutUsBadge({
                 name: 'Arijuna',
-                backgroundUrl: '../assets/arijuna.jpg',
+                backgroundUrl: '../public/arijuna.jpg',
                 titles: ['Musician', 'Composer', 'Programmer'],
                 onClick: `document.getElementById('arijuna-bio').scrollIntoView({ behavior: 'smooth' })`
             })}

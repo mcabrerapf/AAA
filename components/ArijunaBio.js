@@ -19,7 +19,7 @@ export default function ArijunaBio() {
             :
             ''
             }
-            <img src="../assets/arijuna.jpg"/>
+            <img src="../public/arijuna.jpg"/>
         </div>
         <div class="bio__description">
             <p>
