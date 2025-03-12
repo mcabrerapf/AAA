@@ -1,4 +1,4 @@
-import buildClass from "../helpers/buildClass.js";
+import { buildClass } from '../helpers/index.js';
 
 export default function TextArea({
     id,

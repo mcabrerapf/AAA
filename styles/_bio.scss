@@ -1,0 +1,72 @@
+@use "variables";
+
+.bio {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 1rem;
+    gap: 1rem;
+    width: 100%;
+
+    &.tablet {
+        flex-direction: row;
+        &.arijuna {
+            flex-direction: row-reverse;
+        }
+    }
+
+    &.tablet &__image {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: calc(100% - 36rem);
+    }
+
+    &.tablet &__description {
+        display: flex;
+        width: 35rem;
+    }
+
+    &.desktop {
+        flex-direction: row;
+    }
+
+    &.desktop &__image {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: calc(100% - 41rem);
+    }
+
+    &.desktop &__description {
+        display: flex;
+        width: 40rem;
+    }
+
+    &__image {
+        box-sizing: border-box;
+
+        &__header {
+            font-weight: bolder;
+            text-align: center;
+            font-size: 2rem;
+            padding-top: 1rem;
+            padding-bottom: 0.5rem;
+        }
+
+        img {
+            border: 0.2rem solid white;
+            width: 100%;
+        }
+    }
+
+    &__description {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 1rem;
+        font-size: 1.5rem;
+    }
+}

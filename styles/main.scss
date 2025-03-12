@@ -2,6 +2,7 @@
 @use "header";
 @use "main-container";
 @use "main-description";
+@use "logo-small";
 @use "separator";
 @use "contact-form";
 @use "text-input";
@@ -10,6 +11,11 @@
 @use "about-us";
 @use "about-us-badge";
 @use "footer";
+@use "music-examples";
+@use "bio";
+@use "music-video";
+@use "music-playlist";
+@use "links";
 
 html {
 	background-color: black;

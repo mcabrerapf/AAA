@@ -1,0 +1,32 @@
+@use "variables";
+
+.music-video {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  width: 100%;
+
+  &.tablet {
+    width: calc(100%/3 - 1rem);
+  }
+
+  &.desktop {
+    width: calc(100%/3 - 1rem);
+  }
+
+  &__header {
+    font-size: 1.4em;
+    padding-top: 1rem;
+    padding-bottom: 0.5rem;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  &__iframe {
+    width: 100%;
+    
+    iframe {
+      width: 100%;
+    }
+  }
+}
