@@ -28,7 +28,7 @@
   height: calc(100% - 2rem);
   gap: 0.5rem;
   padding: 1rem;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.6);
 }
 
 .main-description {
@@ -156,14 +156,6 @@
   width: 10rem;
 }
 
-.about-us {
-  display: flex;
-  flex-direction: row;
-  gap: 1rem;
-  justify-content: space-around;
-  border: none;
-}
-
 .about-us-badge {
   display: flex;
   box-sizing: border-box;
@@ -194,9 +186,10 @@
   height: 100%;
   border-radius: 5rem;
 }
-.about-us-badge__description {
+.about-us-badge__titles {
   text-align: center;
   font-size: 1.1rem;
+  font-weight: bold;
 }
 
 .footer {
@@ -309,6 +302,7 @@
 }
 .bio__image img {
   border: 0.2rem solid white;
+  border-radius: 0.5rem;
   width: 100%;
 }
 .bio__description {
@@ -332,7 +326,7 @@
   width: calc(33.3333333333% - 1rem);
 }
 .music-video__header {
-  font-size: 1.4em;
+  font-size: 1.2em;
   padding-top: 1rem;
   padding-bottom: 0.5rem;
   font-weight: bold;
@@ -340,6 +334,7 @@
 }
 .music-video__iframe {
   width: 100%;
+  height: 15rem;
 }
 .music-video__iframe iframe {
   width: 100%;

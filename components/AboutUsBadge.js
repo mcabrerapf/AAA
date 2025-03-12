@@ -1,7 +1,7 @@
 export default function AboutUsBadge({
     name = "Name",
     backgroundUrl = "",
-    description = "",
+    titles = [],
     onClick = ""
 } = {}
 ) {
@@ -20,8 +20,15 @@ export default function AboutUsBadge({
         >
             <img src=${backgroundUrl} />
         </div>
-        <div class="about-us-badge__description">
-            ${description}
+        <div class="about-us-badge__titles">
+            ${titles.map(title=> (
+                `<div>
+                    ${title}
+                </div>
+                `
+            ))
+            .join('')
+            }
         </div>
     </div>
     `;
