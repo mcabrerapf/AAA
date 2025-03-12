@@ -19,7 +19,7 @@ export default function GunterBio() {
             :
             ''
             }
-            <img src="../public/gunter-bio.jpg"/>
+            <img src="/public/gunter-bio.jpg"/>
         </div>
         <div class="bio__description">
             <p>
