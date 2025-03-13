@@ -109,6 +109,9 @@
   display: flex;
   gap: 2rem;
 }
+.contact-form__succes-message {
+  font-size: 1.5rem;
+}
 
 .text-input {
   display: flex;
@@ -154,6 +157,10 @@
   padding: 1rem 2rem;
   border-radius: 0.5rem;
   width: 10rem;
+}
+.button:disabled {
+  background-color: gray !important;
+  color: lightgray;
 }
 
 .about-us-badge {

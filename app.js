@@ -8,21 +8,25 @@ import ArijunaBio from './components/ArijunaBio.js';
 import Separator from './components/Separator.js';
 
 function App() {
-    document.getElementById("app").innerHTML = `
+    const app = document.getElementById("app");
+    app.innerHTML = `
         ${Header()}
-        <main class="main-container">
-            ${Links()}
-            ${MainDescription()}
-            ${Separator()}
-            ${MusicExamples()}
-            ${Separator()}
-            ${GunterBio()}
-            ${Separator()}
-            ${ArijunaBio()}
-            ${Separator()}
-            ${ContactForm()}
-        </main>
     `;
+    const mainContainer = document.createElement("main");
+    mainContainer.className = 'main-container'
+    mainContainer.innerHTML = `
+        ${Links()}
+        ${MainDescription()}
+        ${Separator()}
+        ${MusicExamples()}
+        ${Separator()}
+        ${GunterBio()}
+        ${Separator()}
+        ${ArijunaBio()}
+        ${Separator()}
+    `;
+    mainContainer.appendChild(ContactForm());
+    app.appendChild(mainContainer);
 }
 
 App();

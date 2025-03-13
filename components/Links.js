@@ -14,10 +14,13 @@ export default function Links() {
                 ${Button({text: "Who are we?", onClick:onClick('gunter-bio')})}
             </li>
              <li>
-             ${Button({text: "Checkout some of our work", onClick:onClick('videos')})}
+                ${Button({text: "Checkout some of our work", onClick:onClick('videos')})}
             </li>
             <li>
-            ${Button({text: "Listen to some of our music", onClick:onClick('playlists')})}
+                ${Button({text: "Listen to some of our music", onClick:onClick('playlists')})}
+            </li>
+            <li>
+                ${Button({text: "Work with us!", onClick:onClick('contactForm')})}
             </li>
         </ul>
     </div>

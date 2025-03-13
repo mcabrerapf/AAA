@@ -23,6 +23,7 @@ export default function TextInput({
             id="${id}"
             type="text"
             value="${value}"
+            autoComplete="off"
             onchange="${onChange}"
         />
     </div>

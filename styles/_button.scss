@@ -11,4 +11,9 @@
     padding: 1rem 2rem;
     border-radius: 0.5rem;
     width: 10rem;
+
+    &:disabled {
+        background-color: gray!important;
+        color: lightgray;
+    }
 }

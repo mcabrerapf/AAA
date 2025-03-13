@@ -1,10 +1,12 @@
-export default function Button({ text, onClick }) {
+export default function Button({ id, disabled, text, onClick = "" }) {
     return `
     <button 
-        class="button" 
+        id="${id}"
+        class="button"
+        ${disabled ? 'disabled':''}
         onclick="${onClick}"
         >
-    ${text}
+        ${text}
     </button>
     `;
 }
