@@ -89,7 +89,7 @@ export default function ContactForm() {
                     firstName: values.firstNameField,
                     lastName: values.lastNameField,
                     email:values.emailField,
-                    subject: values.subjectField,
+                    subject: `[WORK] ${values.subjectField}`,
                     message: values.messageField
                 })
                 })
