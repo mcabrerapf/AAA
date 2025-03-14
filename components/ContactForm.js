@@ -84,7 +84,7 @@ export default function ContactForm() {
                 </p>
             `;
             formContainer.appendChild(successMessage);
-            return;
+            
             await fetch("https://afternoon-gorge-77049-a1de8dd15ce4.herokuapp.com/email/send", {
                 method: "POST",
                 headers: {
