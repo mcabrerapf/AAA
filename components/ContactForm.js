@@ -78,8 +78,13 @@ export default function ContactForm() {
             form.style.display = "none";
             const successMessage = document.createElement("div");
             successMessage.className = "contact-form__succes-message"
-            successMessage.textContent = "Thanks for getting in touch, we will be with you asap! ✅";
+            successMessage.innerHTML = `
+                <p>
+                    Thanks for getting in touch, we will be with you asap! ✅
+                </p>
+            `;
             formContainer.appendChild(successMessage);
+            return;
             await fetch("https://afternoon-gorge-77049-a1de8dd15ce4.herokuapp.com/email/send", {
                 method: "POST",
                 headers: {

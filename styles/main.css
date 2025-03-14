@@ -110,6 +110,11 @@
   gap: 2rem;
 }
 .contact-form__succes-message {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 20rem;
   font-size: 1.5rem;
 }
 
