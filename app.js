@@ -8,6 +8,7 @@ import ArijunaBio from './components/ArijunaBio.js';
 import Separator from './components/Separator.js';
 
 function App() {
+    console.log("LOADED")
     const app = document.getElementById("app");
     app.innerHTML = `
         ${Header()}
