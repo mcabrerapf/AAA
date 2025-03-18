@@ -1,7 +1,7 @@
 export default function getDeviceType() {
     // let width;
     const width = window.innerWidth;
-    
+    console.log({width});
     if (width <= 767) {
         return "mobile";
     } else if (width <= 1024) {
