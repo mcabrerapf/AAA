@@ -24,7 +24,7 @@ export default function MainDescription() {
         </div>
         <div class="main-description__right">
             <p>
-               Otra descrupcion de quienes somos pe
+               
             </p>
         </div>
     </div>

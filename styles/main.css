@@ -296,7 +296,11 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  width: calc(100% - 41rem);
+  width: 50%;
+}
+.bio.desktop .bio__image img {
+  height: 30rem;
+  width: auto;
 }
 .bio.desktop .bio__description {
   display: flex;

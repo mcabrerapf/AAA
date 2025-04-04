@@ -37,7 +37,12 @@
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        width: calc(100% - 41rem);
+        width: 50%;
+
+        img {
+            height: 30rem;
+            width: auto;
+        }
     }
 
     &.desktop &__description {
