@@ -3,7 +3,7 @@ import AboutUsBadge from "./AboutUsBadge.js";
 export default function MainDescription() {
     return `
     <div class="main-description">
-        <div class="main-description__left">
+        <div class="main-description__info">
             <p>
                 <b>Animal Antics Audio</b> is a music production cooperative composed of
             </p>

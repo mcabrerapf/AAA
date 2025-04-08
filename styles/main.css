@@ -11,12 +11,14 @@
 }
 
 .header {
-  display: flex;
-  text-align: center;
-  justify-content: space-between;
   box-sizing: border-box;
   padding: 1rem;
   border-bottom: 1px solid white;
+}
+.header__main {
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
 }
 
 .main-container {
@@ -38,16 +40,14 @@
   width: 100%;
   padding: 1rem;
   gap: 2rem;
-}
-.main-description__left {
-  display: flex;
   font-size: 1.5rem;
-  width: 100%;
-  justify-content: start;
-  text-align: left;
 }
-.main-description__left p {
-  width: 20rem;
+.main-description__info {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  font-size: 2rem;
 }
 .main-description__badges {
   display: flex;
@@ -222,8 +222,9 @@
   gap: 2rem;
 }
 .music-examples__header {
+  display: flex;
+  justify-content: center;
   font-size: 2rem;
-  padding-left: 1rem;
   width: 100%;
 }
 .music-examples.tablet .music-examples__videos {
@@ -382,6 +383,35 @@
   width: 100%;
 }
 
+.links {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.links .hamburger {
+  font-size: 3rem;
+  padding: 0;
+  background: transparent;
+  color: fuchsia;
+}
+.links .hide {
+  display: none !important;
+}
+.links.desktop ul {
+  flex-direction: row;
+  justify-content: center;
+}
+.links.desktop ul li button {
+  font-size: 1.5rem;
+}
+.links.mobile ul {
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.links.mobile ul li button {
+  font-size: 1.5rem;
+}
 .links ul {
   display: flex;
   flex-direction: column;
@@ -424,6 +454,14 @@ body {
 
 p, h1 {
   margin: 0;
+}
+
+ul {
+  margin-block-start: 0px;
+  margin-block-end: 0px;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 0px;
 }
 
 code {

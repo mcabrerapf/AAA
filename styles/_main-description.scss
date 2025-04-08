@@ -7,17 +7,14 @@
     width: 100%;
     padding: 1rem;
     gap: 2rem;
+    font-size: 1.5rem;
 
-    &__left {
+    &__info {
         display: flex;
-        font-size: 1.5rem;
+        justify-content: center;
+        text-align: center;
         width: 100%;
-        justify-content: start;
-        text-align: left;
-
-        p {
-            width: 20rem;
-        }
+        font-size: 2rem;
     }
 
     &__badges {

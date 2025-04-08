@@ -8,15 +8,18 @@ import ArijunaBio from './components/ArijunaBio.js';
 import Separator from './components/Separator.js';
 
 function App() {
-    console.log("LOADED")
     const app = document.getElementById("app");
-    app.innerHTML = `
+    const header = document.createElement("header");
+    header.className = 'header'
+    header.innerHTML =  `
         ${Header()}
     `;
+    header.appendChild(Links());
+    app.appendChild(header);
+
     const mainContainer = document.createElement("main");
     mainContainer.className = 'main-container'
     mainContainer.innerHTML = `
-        ${Links()}
         ${MainDescription()}
         ${Separator()}
         ${MusicExamples()}

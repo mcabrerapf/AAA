@@ -6,19 +6,10 @@ export default function GunterBio() {
     
     return `
     <div
-        id="gunter-bio"
+        id="gunterBio"
         class="${className}" 
     >
         <div class="bio__image">
-           ${device === 'mobile' ? 
-            ` 
-            <div class="bio__image__header">
-                Gunter
-            </div>
-            `
-            :
-            ''
-            }
             <img src="./public/gunter-bio.jpg"/>
         </div>
         <div class="bio__description">

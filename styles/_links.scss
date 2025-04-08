@@ -1,6 +1,48 @@
 @use "variables";
 
 .links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .hamburger {
+        font-size: 3rem;
+        padding: 0;
+        background: transparent;
+        color: variables.$button-bg-color;;
+    }
+
+    .hide {
+        display: none!important;
+    }
+
+    &.desktop {
+        ul {
+            flex-direction: row;
+            justify-content: center;
+
+            li {
+                button {
+                    font-size: 1.5rem;
+                }
+            }
+        }
+    }
+    
+    &.mobile {
+        ul {
+            flex-direction: row;
+            justify-content: center;
+            flex-wrap: wrap;
+
+            li {
+                button {
+                    font-size: 1.5rem;
+                }
+            }
+        }
+    }
+
     ul {
         display: flex;
         flex-direction: column;

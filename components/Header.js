@@ -2,10 +2,10 @@ import LogoSmall from "./LogoSmall.js";
 
 export default function Header() {
     return `
-        <header class="header">
+        <div class="header__main">
             ${LogoSmall()}
             <h1>Animal Antics Audio</h1>
             ${LogoSmall()}
-        </header>
+        </div>
     `;
 }

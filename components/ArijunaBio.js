@@ -10,15 +10,6 @@ export default function ArijunaBio() {
         id="arijuna-bio"
     >
         <div class="bio__image">
-           ${device === 'mobile' ? 
-            ` 
-            <div class="bio__image__header">
-                Arijuna
-            </div>
-            `
-            :
-            ''
-            }
             <img src="./public/arijuna.jpg"/>
         </div>
         <div class="bio__description">
