@@ -399,18 +399,6 @@
 }
 .links.desktop ul {
   flex-direction: row;
-  justify-content: center;
-}
-.links.desktop ul li button {
-  font-size: 1.5rem;
-}
-.links.mobile ul {
-  flex-direction: row;
-  justify-content: center;
-  flex-wrap: wrap;
-}
-.links.mobile ul li button {
-  font-size: 1.5rem;
 }
 .links ul {
   display: flex;
@@ -420,9 +408,8 @@
   gap: 0.5rem;
 }
 .links ul li button {
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   padding: 0.5rem 1rem;
-  border-radius: 0.5rem;
   width: fit-content;
 }
 
